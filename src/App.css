@@ -32,7 +32,7 @@ body{
 }
 
 .profileSection .profile{
-  flex-basis: 100%;
+ 
   display: flex !important;
   width: 40%;
   flex-direction: row;
@@ -98,4 +98,10 @@ transition: all .2s  ease-in-out ;
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+@media(max-width:576px){
+  .profileSection .profile{
+    width:95%;
+  }
 }
